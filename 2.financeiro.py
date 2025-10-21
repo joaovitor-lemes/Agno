@@ -16,4 +16,4 @@ agent = Agent( model = Groq(id = "llama-3.3-70b-versatile"),
                 instructions = "Apresente em ordem decrescente" ) 
 
 
-agent.print_response("qual o preço das 10 maiores ações listadas na IBOVESPA hoje?", stream = True)
+agent.print_response("gere um gráfico de linha dos ultimos 10 dias das ações do itau", stream = True)
